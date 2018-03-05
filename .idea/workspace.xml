@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f72cfe-55f8-49de-82c3-e8409c4bda7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/lambda/Main.java" afterPath="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -66,14 +65,12 @@
       <file leaf-file-name="PropertiesUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="78">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,9 +100,9 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yang/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/util.java" />
+        <option value="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
       </list>
     </option>
   </component>
@@ -146,6 +143,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CollectTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CollectTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CollectTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readproperties" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,7 +658,7 @@
       <workItem from="1501668398777" duration="1609000" />
       <workItem from="1501734950546" duration="1865000" />
       <workItem from="1503995114125" duration="1427000" />
-      <workItem from="1520218773476" duration="2900000" />
+      <workItem from="1520218773476" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="base64">
       <created>1501743679890</created>
@@ -648,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501743679890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lamba,properties read">
+      <created>1520221714852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520221714852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8261000" />
+    <option name="totallyTimeSpent" value="11140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1098" extended-state="0" />
@@ -697,7 +723,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base64" />
-    <option name="LAST_COMMIT_MESSAGE" value="base64" />
+    <MESSAGE value="lamba,properties read" />
+    <option name="LAST_COMMIT_MESSAGE" value="lamba,properties read" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -855,22 +882,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="78">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding />
         </state>
       </provider>

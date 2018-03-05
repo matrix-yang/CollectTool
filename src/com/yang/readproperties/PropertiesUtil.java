@@ -1,28 +1,25 @@
 package com.yang.readproperties;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 public class PropertiesUtil {
     private String path = "";
     private Properties pro = null;
 
-    public PropertiesUtil(String path){
+    public PropertiesUtil(String path) {
         this.path = path;
         this.init();
     }
 
-    public void init(){
+    public void init() {
         pro = new Properties();
         FileInputStream in = null;
         try {
             in = new FileInputStream(path);
             pro.load(in);
         } catch (FileNotFoundException e) {
-            System.out.println("该路径->"+path+"文件不存在");
+            System.out.println("该路径->" + path + "文件不存在");
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
@@ -46,7 +43,7 @@ public class PropertiesUtil {
             pro.store(oFile, "Comment");
             oFile.close();
         } catch (FileNotFoundException e) {
-            System.out.println("该路径->"+path+"文件不存在");
+            System.out.println("该路径->" + path + "文件不存在");
             e.printStackTrace();
         } catch (IOException e) {
             System.out.println("保存失败");
@@ -54,12 +51,30 @@ public class PropertiesUtil {
         }
     }
 
+    /**
+     * Properties 默认使用的编码是ascii，不能使用中文，需要转码
+     * @param key
+     * @param value
+     */
     public void setProperty(String key, String value) {
-        pro.setProperty(key, value);
+        String result = null;
+        try {
+            result = new String(value.getBytes("utf-8"), "iso-8859-1");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        pro.setProperty(key, result);
         this.store();
     }
 
     public String getProperty(String key) {
-        return pro.getProperty(key);
+        String s = pro.getProperty(key);
+        String result = null;
+        try {
+            result = new String(s.getBytes("iso-8859-1"), "utf-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }
