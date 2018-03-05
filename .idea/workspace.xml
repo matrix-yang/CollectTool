@@ -52,25 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="192">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PropertiesUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/com/yang/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/util.java" />
         <option value="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
       </list>
     </option>
   </component>
@@ -658,7 +658,7 @@
       <workItem from="1501668398777" duration="1609000" />
       <workItem from="1501734950546" duration="1865000" />
       <workItem from="1503995114125" duration="1427000" />
-      <workItem from="1520218773476" duration="5779000" />
+      <workItem from="1520218773476" duration="8775000" />
     </task>
     <task id="LOCAL-00001" summary="base64">
       <created>1501743679890</created>
@@ -674,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520221714852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="properties解决中文乱码">
+      <created>1520231247060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520231247060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11140000" />
+    <option name="totallyTimeSpent" value="14136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1098" extended-state="0" />
@@ -705,7 +712,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -724,7 +731,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base64" />
     <MESSAGE value="lamba,properties read" />
-    <option name="LAST_COMMIT_MESSAGE" value="lamba,properties read" />
+    <MESSAGE value="properties解决中文乱码" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties解决中文乱码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -880,23 +888,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

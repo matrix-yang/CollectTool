@@ -17,7 +17,8 @@ public class PropertiesUtil {
         FileInputStream in = null;
         try {
             in = new FileInputStream(path);
-            pro.load(in);
+            //Properties 默认使用的编码是ascii，不能使用中文，需要转码
+            pro.load(new InputStreamReader(in,"utf-8"));
         } catch (FileNotFoundException e) {
             System.out.println("该路径->" + path + "文件不存在");
             e.printStackTrace();
@@ -40,7 +41,8 @@ public class PropertiesUtil {
         FileOutputStream oFile = null;
         try {
             oFile = new FileOutputStream(path, false);
-            pro.store(oFile, "Comment");
+            //Properties 默认使用的编码是ascii，不能使用中文，需要转码
+            pro.store(new OutputStreamWriter(oFile, "utf-8"), "Comment");
             oFile.close();
         } catch (FileNotFoundException e) {
             System.out.println("该路径->" + path + "文件不存在");
@@ -57,24 +59,12 @@ public class PropertiesUtil {
      * @param value
      */
     public void setProperty(String key, String value) {
-        String result = null;
-        try {
-            result = new String(value.getBytes("utf-8"), "iso-8859-1");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        pro.setProperty(key, result);
+        pro.setProperty(key, value);
         this.store();
     }
 
     public String getProperty(String key) {
-        String s = pro.getProperty(key);
-        String result = null;
-        try {
-            result = new String(s.getBytes("iso-8859-1"), "utf-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+        String result = pro.getProperty(key).trim();  //去掉末尾空格
         return result;
     }
 }
