@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="04f72cfe-55f8-49de-82c3-e8409c4bda7b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" afterPath="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/lambda/Case.java" afterPath="$PROJECT_DIR$/src/com/yang/lambda/Case.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yang/lambda/Main.java" afterPath="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
       <file leaf-file-name="Case.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Case.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="266">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,17 +56,17 @@
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PropertiesUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
@@ -100,9 +100,10 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yang/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/util.java" />
-        <option value="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/Main.java" />
         <option value="$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/yang/lambda/Case.java" />
+        <option value="$PROJECT_DIR$/src/com/yang/lambda/Main.java" />
       </list>
     </option>
   </component>
@@ -163,10 +164,6 @@
               <option name="myItemId" value="yang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readproperties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -183,6 +180,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lambda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.yang.lambda.Main" />
@@ -638,9 +639,10 @@
       <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Base64Test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Base64Test" />
       </list>
     </recent_temporary>
   </component>
@@ -658,7 +660,7 @@
       <workItem from="1501668398777" duration="1609000" />
       <workItem from="1501734950546" duration="1865000" />
       <workItem from="1503995114125" duration="1427000" />
-      <workItem from="1520218773476" duration="8775000" />
+      <workItem from="1520218773476" duration="13094000" />
     </task>
     <task id="LOCAL-00001" summary="base64">
       <created>1501743679890</created>
@@ -681,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520231247060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="properties文件使用utf-8编码">
+      <created>1520239394259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520239394259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14136000" />
+    <option name="totallyTimeSpent" value="18455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1098" extended-state="0" />
@@ -702,7 +711,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31229237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -732,7 +741,8 @@
     <MESSAGE value="base64" />
     <MESSAGE value="lamba,properties read" />
     <MESSAGE value="properties解决中文乱码" />
-    <option name="LAST_COMMIT_MESSAGE" value="properties解决中文乱码" />
+    <MESSAGE value="properties文件使用utf-8编码" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties文件使用utf-8编码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,8 +768,8 @@
         <state relative-caret-position="120">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,8 +797,8 @@
         <state relative-caret-position="120">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,8 +826,8 @@
         <state relative-caret-position="120">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,8 +855,8 @@
         <state relative-caret-position="120">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,43 +877,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Case.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yang/readproperties/PropertiesUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="168">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
             <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yang/lambda/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

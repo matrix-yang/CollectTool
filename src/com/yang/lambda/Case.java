@@ -9,6 +9,13 @@ public class Case {
     long c;
     String d;
 
+    public Case(int a,int b,long c,String d){
+        this.a=a;
+        this.b=b;
+        this.c=c;
+        this.d=d;
+    }
+
     public int getA() {
         return a;
     }
